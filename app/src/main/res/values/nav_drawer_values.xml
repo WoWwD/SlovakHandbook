@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_drawer_values">
+        <item>Фонетика и орфография</item>
+        <item>Глаголы</item>
+        <item>Падежи</item>
+<!--        <item>Прилагательные</item>-->
+<!--        <item>Местоимения</item>-->
+<!--        <item>Числительные</item>-->
+<!--        <item>Даты</item>-->
+    </string-array>
+</resources>
