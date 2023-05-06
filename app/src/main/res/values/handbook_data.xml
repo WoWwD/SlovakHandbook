@@ -5,14 +5,14 @@
     </string-array>
 
     <string-array name="handbook_data_verbs">
-        <item>Prézent - Местоимения|present_verbs_table.png</item>
+        <item>Prézent - pronominá|present_verbs_table.png</item>
         <item>Prézent -a, -i, -e|present_verbs_aie.png</item>
-        <item>Prézent - Исключения|present_verbs_exceptions.png</item>
-        <item>Pretéritum - Местоимения|past_verbs_table.png</item>
+        <item>Prézent - iregulárne|present_verbs_exceptions.png</item>
+        <item>Pretéritum - pronominá|past_verbs_table.png</item>
         <item>Pretéritum -a, -i, -e|past_verbs_aie.png</item>
-        <item>Pretéritum - Исключения|past_verbs_exceptions.png</item>
-        <item>Futúrum - Местоимения|future_verbs_table.png</item>
-        <item>Futúrum - Использование sa/si|future_verbs_sasi.png</item>
+        <item>Pretéritum - iregulárne|past_verbs_exceptions.png</item>
+        <item>Futúrum - pronominá|future_verbs_table.png</item>
+        <item>Futúrum - použitie sa/si|future_verbs_sasi.png</item>
         <item>Modálne verbá|modal_verbs.png</item>
         <item>Imperatív|imperativ_verbs.png</item>
         <item>Imperfektívne a perfektívne verbum|perf_imperf_verbs.png</item>
@@ -31,5 +31,41 @@
         <item>Genitív plurálu|case_gen_pl.png</item>
         <item>Datív singuláru|case_dat_sing.png</item>
         <item>Datív plurálu|case_dat_pl.png</item>
+    </string-array>
+
+    <string-array name="handbook_data_adjectives">
+        <item>Komparatív, superlatív|adject_komp_superl.png</item>
+        <item>Komparatív, superlatív - iregulárne|adject_komp_superl_exceptions.png</item>
+        <item>Tvorenie adjektív|adject_creating.png</item>
+        <item>Adjektívum rád/rada/rado/radi/rady|adject_rad.png</item>
+        <item>Tvorenie posesívnych adj.|possessive_creating.png</item>
+        <item>Deklinácia posesívnych adj. - singulár|possessive_sing.png</item>
+        <item>Deklinácia posesívnych adj. - plurál|possessive_pl.png</item>
+    </string-array>
+
+    <string-array name="handbook_data_pronouns">
+        <item>Akuzatív|pronou_personal_akuz.png</item>
+        <item>Lokál|pronou_personal_lok.png</item>
+        <item>Inštrumentál|pronou_personal_ins.png</item>
+        <item>Genitív|pronou_personal_gen.png</item>
+        <item>Datív|pronou_personal_dat.png</item>
+        <item>Neurčíté a negatívne pronominá|pronou_personal_dat.png</item>
+    </string-array>
+
+    <string-array name="handbook_data_numerals">
+        <item>Ordináliá|ordinar.png</item>
+        <item>Písanie číslice|ordinar_writing.png</item>
+    </string-array>
+
+    <string-array name="handbook_data_conjunctions">
+        <item>Konjunkcia Keď|conjunc_ked.png</item>
+        <item>Konjunkcia Ak|conjunc_ak.png</item>
+    </string-array>
+
+    <string-array name="handbook_data_other">
+        <item>Dátum|datum.png</item>
+        <item>Čas|time.png</item>
+        <item>Smer|direction.png</item>
+        <item>Miesto|place.png</item>
     </string-array>
 </resources>

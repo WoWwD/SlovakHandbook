@@ -9,7 +9,6 @@ class SettingsViewModel(private val sharedPreferences: SharedPreferences):ViewMo
     fun getShowingPreviewCardState(): Boolean {
         return sharedPreferences.getBoolean(showingPreviewCardKey, false)
     }
-
     fun setShowingPreviewCardState(state: Boolean) {
         sharedPreferences.edit().putBoolean(showingPreviewCardKey, state).apply()
     }

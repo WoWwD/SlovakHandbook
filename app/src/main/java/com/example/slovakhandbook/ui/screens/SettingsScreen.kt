@@ -43,7 +43,7 @@ fun SettingsScreen(navController: NavController, settingsViewModel: SettingsView
         ) {
             Row(
                 verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier.padding(horizontal = 24.dp)
+                modifier = Modifier.padding(horizontal = 24.dp, vertical = 24.dp)
             ) {
                 Switch(
                     checked = showingPreviewCardState.value,

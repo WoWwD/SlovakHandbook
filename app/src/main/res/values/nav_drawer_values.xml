@@ -4,9 +4,10 @@
         <item>Фонетика и орфография</item>
         <item>Глаголы</item>
         <item>Падежи</item>
-<!--        <item>Прилагательные</item>-->
-<!--        <item>Местоимения</item>-->
-<!--        <item>Числительные</item>-->
-<!--        <item>Даты</item>-->
+        <item>Adjektívum</item>
+        <item>Местоимения</item>
+        <item>Числительные</item>
+        <item>Союзы</item>
+        <item>Другое</item>
     </string-array>
 </resources>
