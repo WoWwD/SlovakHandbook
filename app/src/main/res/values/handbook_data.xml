@@ -5,13 +5,13 @@
     </string-array>
 
     <string-array name="handbook_data_verbs">
-        <item>Prézent - Таблица с местоимениями|present_verbs_table.png</item>
+        <item>Prézent - Местоимения|present_verbs_table.png</item>
         <item>Prézent -a, -i, -e|present_verbs_aie.png</item>
         <item>Prézent - Исключения|present_verbs_exceptions.png</item>
-        <item>Pretéritum - Таблица с местоимениями|past_verbs_table.png</item>
+        <item>Pretéritum - Местоимения|past_verbs_table.png</item>
         <item>Pretéritum -a, -i, -e|past_verbs_aie.png</item>
         <item>Pretéritum - Исключения|past_verbs_exceptions.png</item>
-        <item>Futúrum - Таблица с местоимениями|future_verbs_table.png</item>
+        <item>Futúrum - Местоимения|future_verbs_table.png</item>
         <item>Futúrum - Использование sa/si|future_verbs_sasi.png</item>
         <item>Modálne verbá|modal_verbs.png</item>
         <item>Imperatív|imperativ_verbs.png</item>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SlovakHandbook</string>
+    <string name="get_preview_on_card">Показывать превью изображения на карточке</string>
 </resources>
