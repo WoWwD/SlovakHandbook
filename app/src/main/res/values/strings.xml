@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">SlovakHandbook</string>
-    <string name="get_preview_on_card">Показывать превью изображения на карточке</string>
+    <string name="get_preview_on_card">Show preview of the image on the card</string>
+    <string name="about_app">About app</string>
+    <string name="settings">Settings</string>
+    <string name="info_app_text">The materials are taken from the textbook\n\"Tri, dva, jeden - slovenčina - úroveň A2\"\nAuthors: Iveta Andorová, Martina Uličná, Vladimíra Bashir Géčová, Adela Gabríková\nPublisher: Univerzita Komenského v Bratislave, Centrum ďalšieho vzdelávania,\nJazyková a odborná príprava cudzincov a krajanov, 2017</string>
 </resources>
