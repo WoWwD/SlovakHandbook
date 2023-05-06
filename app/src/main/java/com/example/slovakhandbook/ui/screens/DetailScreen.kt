@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.slovakhandbook.screens
+package com.example.slovakhandbook.ui.screens
 
 import android.app.Activity
 import androidx.compose.foundation.background
@@ -43,8 +43,9 @@ fun DetailScreen(
             MyTopAppBar(
                 title = description,
                 onClickNavButton = {
-                    navController.popBackStack()
-                    screenOrientationToDefault(activity = activity)
+                    navController.popBackStack().also {
+                        screenOrientationToDefault(activity = activity)
+                    }
                 },
                 imageVector = Icons.Outlined.ArrowBack
             )
