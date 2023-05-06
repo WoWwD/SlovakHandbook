@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="nav_drawer_values">
-        <item>Фонетика и орфография</item>
-        <item>Глаголы</item>
-        <item>Падежи</item>
-        <item>Adjektívum</item>
-        <item>Местоимения</item>
-        <item>Числительные</item>
-        <item>Союзы</item>
-        <item>Другое</item>
+        <item>Fonetika a ortografia</item>
+        <item>Verbá</item>
+        <item>Pády</item>
+        <item>Adjektíva</item>
+        <item>Pronominá</item>
+        <item>Ordináliá</item>
+        <item>Konjunkcií</item>
+        <item>Iné</item>
     </string-array>
 </resources>

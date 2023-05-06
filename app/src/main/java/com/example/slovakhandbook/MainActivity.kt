@@ -9,8 +9,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.slovakhandbook.ui.components.NavigationDrawer
+import com.example.slovakhandbook.ui.screens.AboutAppScreen
 import com.example.slovakhandbook.ui.screens.DetailScreen
-import com.example.slovakhandbook.ui.screens.MainScreen
 import com.example.slovakhandbook.ui.screens.SettingsScreen
 import com.example.slovakhandbook.ui.theme.SlovakHandbookTheme
 import com.example.slovakhandbook.viewmodels.SettingsViewModel
@@ -31,7 +32,7 @@ class MainActivity : ComponentActivity() {
                     startDestination = "mainScreen"
                 ) {
                     composable(route = "mainScreen") {
-                        MainScreen(
+                        NavigationDrawer(
                             navController = navController,
                             settingsViewModel = settingsViewModel
                         )
@@ -41,6 +42,9 @@ class MainActivity : ComponentActivity() {
                             navController = navController,
                             settingsViewModel = settingsViewModel
                         )
+                    }
+                    composable(route = "aboutAppScreen") {
+                        AboutAppScreen(navController = navController)
                     }
                     composable(
                         route = "detailScreen/{imageName}/{description}",

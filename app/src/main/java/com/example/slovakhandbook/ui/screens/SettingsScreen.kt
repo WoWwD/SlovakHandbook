@@ -32,7 +32,7 @@ fun SettingsScreen(navController: NavController, settingsViewModel: SettingsView
     Scaffold(
         topBar = {
             MyTopAppBar(
-                title = "Настройки",
+                title = stringResource(R.string.settings),
                 onClickNavButton = { navController.popBackStack() },
                 imageVector = Icons.Outlined.ArrowBack
             )
