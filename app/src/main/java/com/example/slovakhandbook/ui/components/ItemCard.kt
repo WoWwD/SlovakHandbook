@@ -25,20 +25,22 @@ import com.example.slovakhandbook.R
 import com.example.slovakhandbook.models.CardModel
 
 @Composable
-fun ItemCard(cardModel: CardModel, onClick: () -> Unit) {
+fun ItemCard(cardModel: CardModel, onClick: () -> Unit, isPreview: Boolean) {
     Card(
         modifier = Modifier.fillMaxWidth(),
         onClick = onClick,
         content = {
             Column {
-                AssetImage(
-                    imageName = cardModel.imageName,
-                    contentDescription = cardModel.description,
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .clip(RoundedCornerShape(12.dp))
-                        .background(Color.White)
-                )
+                if (isPreview) {
+                    AssetImage(
+                        imageName = cardModel.imageName,
+                        contentDescription = cardModel.description,
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .clip(RoundedCornerShape(12.dp))
+                            .background(Color.White)
+                    )
+                }
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween,

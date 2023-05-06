@@ -1,5 +1,6 @@
 package com.example.slovakhandbook
 
+import android.content.Context
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -8,15 +9,19 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.slovakhandbook.screens.DetailScreen
-import com.example.slovakhandbook.screens.MainScreen
+import com.example.slovakhandbook.ui.screens.DetailScreen
+import com.example.slovakhandbook.ui.screens.MainScreen
+import com.example.slovakhandbook.ui.screens.SettingsScreen
 import com.example.slovakhandbook.ui.theme.SlovakHandbookTheme
+import com.example.slovakhandbook.viewmodels.SettingsViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             val navController = rememberNavController()
+            val sharedPreferences = getSharedPreferences("my_prefs", Context.MODE_PRIVATE)
+            val settingsViewModel = SettingsViewModel(sharedPreferences)
 
             SlovakHandbookTheme(
                 darkTheme = true
@@ -25,7 +30,18 @@ class MainActivity : ComponentActivity() {
                     navController = navController,
                     startDestination = "mainScreen"
                 ) {
-                    composable(route = "mainScreen") { MainScreen( navController = navController) }
+                    composable(route = "mainScreen") {
+                        MainScreen(
+                            navController = navController,
+                            settingsViewModel = settingsViewModel
+                        )
+                    }
+                    composable(route = "settingsScreen") {
+                        SettingsScreen(
+                            navController = navController,
+                            settingsViewModel = settingsViewModel
+                        )
+                    }
                     composable(
                         route = "detailScreen/{imageName}/{description}",
                         arguments = listOf(
