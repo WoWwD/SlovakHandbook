@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.slovakhandbook.ui.screens
+package com.app.slovakhandbook.ui.screens
 
 import android.app.Activity
 import androidx.compose.foundation.background
@@ -25,9 +25,9 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavController
-import com.example.slovakhandbook.ui.components.AssetImage
-import com.example.slovakhandbook.ui.components.MyTopAppBar
-import com.example.slovakhandbook.utils.screenOrientationToDefault
+import com.app.slovakhandbook.ui.components.AssetImage
+import com.app.slovakhandbook.ui.components.MyTopAppBar
+import com.app.slovakhandbook.utils.screenOrientationToDefault
 
 @Composable
 fun DetailScreen(

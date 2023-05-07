@@ -1,8 +1,8 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.slovakhandbook.ui.screens
+package com.app.slovakhandbook.ui.screens
 
-import com.example.slovakhandbook.viewmodels.SettingsViewModel
+import com.app.slovakhandbook.viewmodels.SettingsViewModel
 import android.app.Activity
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.padding
@@ -17,12 +17,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringArrayResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.slovakhandbook.R
-import com.example.slovakhandbook.models.CardModel
-import com.example.slovakhandbook.ui.components.ItemCard
-import com.example.slovakhandbook.ui.components.MyTopAppBar
-import com.example.slovakhandbook.utils.IdsList
-import com.example.slovakhandbook.utils.screenOrientationToLandscape
+import com.app.slovakhandbook.R
+import com.app.slovakhandbook.models.CardModel
+import com.app.slovakhandbook.ui.components.ItemCard
+import com.app.slovakhandbook.ui.components.MyTopAppBar
+import com.app.slovakhandbook.utils.IdsList
+import com.app.slovakhandbook.utils.screenOrientationToLandscape
 
 @Composable
 fun MainScreen(

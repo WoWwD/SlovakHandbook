@@ -1,4 +1,4 @@
-package com.example.slovakhandbook.utils
+package com.app.slovakhandbook.utils
 
 import android.app.Activity
 import android.content.pm.ActivityInfo

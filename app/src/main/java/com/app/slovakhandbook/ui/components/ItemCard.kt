@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.slovakhandbook.ui.components
+package com.app.slovakhandbook.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -21,8 +21,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.example.slovakhandbook.R
-import com.example.slovakhandbook.models.CardModel
+import com.app.slovakhandbook.R
+import com.app.slovakhandbook.models.CardModel
 
 @Composable
 fun ItemCard(cardModel: CardModel, onClick: () -> Unit, isPreview: Boolean) {

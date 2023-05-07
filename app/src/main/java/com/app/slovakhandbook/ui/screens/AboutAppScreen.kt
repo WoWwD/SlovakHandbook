@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.slovakhandbook.ui.screens
+package com.app.slovakhandbook.ui.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -15,8 +15,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.slovakhandbook.R
-import com.example.slovakhandbook.ui.components.MyTopAppBar
+import com.app.slovakhandbook.R
+import com.app.slovakhandbook.ui.components.MyTopAppBar
 
 @Composable
 fun AboutAppScreen(navController: NavController) {

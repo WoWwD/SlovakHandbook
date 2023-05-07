@@ -1,4 +1,4 @@
-package com.example.slovakhandbook.ui.components
+package com.app.slovakhandbook.ui.components
 
 import android.graphics.BitmapFactory
 import androidx.compose.foundation.Image

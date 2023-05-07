@@ -1,4 +1,4 @@
-package com.example.slovakhandbook.viewmodels
+package com.app.slovakhandbook.viewmodels
 
 import android.content.SharedPreferences
 import androidx.lifecycle.ViewModel

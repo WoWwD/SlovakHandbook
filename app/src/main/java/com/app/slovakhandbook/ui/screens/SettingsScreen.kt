@@ -1,8 +1,8 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.slovakhandbook.ui.screens
+package com.app.slovakhandbook.ui.screens
 
-import com.example.slovakhandbook.viewmodels.SettingsViewModel
+import com.app.slovakhandbook.viewmodels.SettingsViewModel
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -22,8 +22,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.slovakhandbook.R
-import com.example.slovakhandbook.ui.components.MyTopAppBar
+import com.app.slovakhandbook.R
+import com.app.slovakhandbook.ui.components.MyTopAppBar
 
 @Composable
 fun SettingsScreen(navController: NavController, settingsViewModel: SettingsViewModel) {

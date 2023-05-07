@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.slovakhandbook'
+    namespace 'com.app.slovakhandbook'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.slovakhandbook"
+        applicationId "com.app.slovakhandbook"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -24,6 +24,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
     compileOptions {

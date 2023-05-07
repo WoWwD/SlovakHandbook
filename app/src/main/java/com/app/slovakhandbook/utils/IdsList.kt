@@ -1,6 +1,6 @@
-package com.example.slovakhandbook.utils
+package com.app.slovakhandbook.utils
 
-import com.example.slovakhandbook.R
+import com.app.slovakhandbook.R
 
 object IdsList {
     val listIdsCardsNavDriver = listOf(

@@ -1,4 +1,4 @@
-package com.example.slovakhandbook.ui.theme
+package com.app.slovakhandbook.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

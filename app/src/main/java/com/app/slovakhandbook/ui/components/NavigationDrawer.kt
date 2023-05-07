@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.example.slovakhandbook.ui.components
+package com.app.slovakhandbook.ui.components
 
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.padding
@@ -25,9 +25,9 @@ import androidx.compose.ui.res.stringArrayResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.slovakhandbook.R
-import com.example.slovakhandbook.ui.screens.MainScreen
-import com.example.slovakhandbook.viewmodels.SettingsViewModel
+import com.app.slovakhandbook.R
+import com.app.slovakhandbook.ui.screens.MainScreen
+import com.app.slovakhandbook.viewmodels.SettingsViewModel
 import kotlinx.coroutines.launch
 
 @Composable

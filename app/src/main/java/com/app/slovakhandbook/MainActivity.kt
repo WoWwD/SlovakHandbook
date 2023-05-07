@@ -1,4 +1,4 @@
-package com.example.slovakhandbook
+package com.app.slovakhandbook
 
 import android.content.Context
 import android.os.Bundle
@@ -9,12 +9,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.slovakhandbook.ui.components.NavigationDrawer
-import com.example.slovakhandbook.ui.screens.AboutAppScreen
-import com.example.slovakhandbook.ui.screens.DetailScreen
-import com.example.slovakhandbook.ui.screens.SettingsScreen
-import com.example.slovakhandbook.ui.theme.SlovakHandbookTheme
-import com.example.slovakhandbook.viewmodels.SettingsViewModel
+import com.app.slovakhandbook.ui.components.NavigationDrawer
+import com.app.slovakhandbook.ui.screens.AboutAppScreen
+import com.app.slovakhandbook.ui.screens.DetailScreen
+import com.app.slovakhandbook.ui.screens.SettingsScreen
+import com.app.slovakhandbook.ui.theme.SlovakHandbookTheme
+import com.app.slovakhandbook.viewmodels.SettingsViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
